@@ -1,0 +1,20 @@
+{
+  // HACK: 代码格式化设置
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // 保存的时候自动格式化
+  "editor.formatOnSave": true,
+
+  // eslint 代码保存后才校验
+  "eslint.run": "onSave",
+  "commentTranslate.targetLanguage": "zh-CN"
+}

@@ -1,0 +1,11 @@
+{
+  "restartable": "rs",
+  "verbose": true,
+  "watch": ["./"],
+  "ignore": [".git", "node_modules", "dist", ".vscode"],
+  "env": {
+    "NODE_ENV": "dev"
+  },
+  "ext": "ts cjs mjs js json",
+  "exec": "ts-node --files -r tsconfig-paths/register src/main.ts"
+}

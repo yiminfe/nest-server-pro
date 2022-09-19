@@ -1,0 +1,11 @@
+dist
+node_modules
+coverage
+src/test
+
+!.*
+package-lock.json
+pnpm-lock.yaml
+commitlint.config.js
+.cz-config.js
+.eslintrc.js
