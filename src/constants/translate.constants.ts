@@ -31,6 +31,7 @@ export function getTranslateBody(text: string) {
     appKey,
     salt,
     sign,
+    ext: 'mp3',
     signType: 'v3',
     curtime
   }
